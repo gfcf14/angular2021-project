@@ -1,9 +1,9 @@
-<app-header></app-header>
+<app-header (featureSelected)="onNavigate('other-data')"></app-header>
 <div class='container'>
   <div class='row'>
     <div class='col-md-12'>
-      <recipes></recipes>
-      <shopping-list></shopping-list>
+      <recipes *ngIf="loadedFeature == 'recipe'"></recipes>
+      <shopping-list *ngIf="loadedFeature == 'shopping-list'"></shopping-list>
     </div>
   </div>
 </div>
