@@ -2,7 +2,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Recipe } from '../recipe.model';
 
 @Component ({
-  selector: 'recipe-list',
+  selector: 'app-recipe-list',
   templateUrl: './recipe-list.component.html'
 })
 

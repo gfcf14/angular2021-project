@@ -2,7 +2,7 @@ import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '
 import { Ingredient } from 'src/app/shared/ingredient.model';
 
 @Component ({
-  selector: 'shopping-edit',
+  selector: 'app-shopping-edit',
   templateUrl: './shopping-edit.component.html'
 })
 
